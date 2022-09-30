@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "niños",
+    "price": 400,
+    "thumbnail": "https://pedidosfarma.vteximg.com.br/arquivos/ids/168770-300-300/2850953_2_f.jpg?v=637093534445300000"
+  },
+  {
+    "id": 2,
+    "title": "Ultra Soft",
+    "price": 400,
+    "thumbnail": "https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center-relaunch/latam/sub-brands-pages/ultra-soft/ultrasoft-brandpage.png"
+  },
+  {
+    "id": 3,
+    "title": "Eco Premier",
+    "price": 500,
+    "thumbnail": "https://puntodeventa.ar/wp-content/uploads/2021/02/67-6-2.png"
+  }
+]
