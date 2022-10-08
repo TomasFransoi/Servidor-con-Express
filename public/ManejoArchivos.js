@@ -107,5 +107,19 @@ class Contenedor {
             console.log(error)
         }
     }
+    updateById = async(id,body)=>{
+        try {
+            const productos = await this.getAll();
+            const productPos = productos.findIndex(p=>p.id === id);
+            productos[productPos] = {
+                id:id,
+                ...body
+            }
+            await fs.promises.writeFile(this.file,JSON.stringify(productos, null, 2))
+            return productos
+        } catch (error) {
+            console.log(error)
+        }
+    }
 }
 module.exports = Contenedor;
