@@ -1,0 +1,1 @@
+para instalar todos los paquetes utilizar npm install no npm init

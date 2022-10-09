@@ -1,6 +1,6 @@
 const express = require("express");
-const Contenedor = require("../public/ManejoArchivos")
-const productos = new Contenedor("../public/productos.txt")
+const Contenedor = require("../ManejoArchivos")
+const productos = new Contenedor("../productos.txt")
 const productsRouter = express.Router()
 productsRouter.get("/",async(request,response)=>{
     const productosAll = await productos.getAll()
@@ -44,3 +44,4 @@ productsRouter.delete("/:id",async(request,response)=>{
         message:"El producto a sido eliminado"
     })
 })
+module.exports = productsRouter;
